@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<title>Career Connect Final</title>
+<link rel="stylesheet" href="../style/job_seeker_main.css">
+</head>
+
+<body>
+<div class="container">
+
+<navbar class="navbar">
+<img src="../images/logo.jpg" alt="logo" class="logo">
+<ul class="list-inline tabs-underlined">
+
+  <li>
+    <a href="#planning" class="tab-underlined"><strong>Notifications</strong></a>
+  </li>
+  <li>
+    <a href="/html/login.html" class="tab-underlined"><strong>Login</strong></a>
+  </li>
+  <li>
+    <a href="#" class="tab-underlined"><strong>Sign Up</strong></a>
+  </li>
+  <li>
+    <a href="#" class="tab-underlined" id="theme-toggle"  ><i class="fa-solid fa-user"></i></a>
+    <!-- <a href="#" class="tab-underlined"><i class="fa-regular fa-sun"></i></a> -->
+  </li>
+</ul>
+</navbar>
+
+<div class="banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.665)), url('../images/banner.jpg');">
+    <div class="banner-text">
+      <h1 class="banner-title">Job Seeker</h1>
+    </div>
+</div>
+
+<div class="main">
+
+
+
+<div class="planning" id="planning">
+  <h2 class="planning-title"><em>Search Bar</em></h2>
+  <form action="/search" method="get">
+    <input type="text" name="query" placeholder="Search..." size="30">
+    <input type="submit" value="Search">
+  </form>
+
+
+  <div class="planning-first-row">
+    <a href="#" class="planning-card">
+      <i class="fa-solid fa-laptop"></i>
+      <div class="planning-card-text">
+        <h3>Tech Field</h3>
+        <p>Software, Data Sci, Cloud</p>
+      </div>
+    </a>
+
+    <a href="#" class="planning-card">
+      <i class="fa-solid fa-dollar-sign"></i>
+      <div class="planning-card-text">
+        <h3>Finance</h3>
+        <p>Banking, Teller</p>
+      </div>
+    </a>
+
+    <a href="#" class="planning-card">
+      <i class="fa-solid fa-wrench"></i>
+      <div class="planning-card-text">
+        <h3>Engineer</h3>
+        <p>Electrical, Chemical, Mechanical</p>
+      </div>
+    </a>
+
+
+    <a href="/project_itineraries.html" class="planning-card">
+      <i class="fa-solid fa-business-time"></i>
+      <div class="planning-card-text">
+        <h3>Business</h3>
+        <p>Select some pre-made trips</p>
+      </div>
+    </a>
+
+    <a href="#" class="planning-card">
+      <i class="fa-solid fa-person"></i>
+      <div class="planning-card-text">
+        <h3>Human Resource</h3>
+        <p>Recruiter, HR, Consultant</p>
+      </div>
+    </a>
+
+    <a href="#" class="planning-card">
+      <i class="fa-solid fa-school"></i>
+      <div class="planning-card-text">
+        <h3>Education</h3>
+        <p>Tutor, Coach, Teacher</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="activities" id="activities">
+  <h2><em>Activities</em></h2>
+  <h3>Find your interests</h3>
+
+
+</div>
+
+
+
+
+
+
+<div class="how-to-article">
+</div>
+<div class="how-to-options">
+  <h2><em>Locations</em></h2>
+  <h3>Choose a destination</h3>
+  <div class="tokyo-cards">
+    <a href="#" class="tokyo-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/shinjuku.jpg')">
+      Central Tokyo
+    </a>
+    <a href="#" class="tokyo-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/kawagoe.jpg')">
+      Nearby Tokyo
+    </a>
+    <a href="#" class="tokyo-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/naraijuku.jpg')">
+      Outside Tokyo
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+<footer class="footer">
+    <div class="footer-links">
+      <a href="https://github.com/DanielChin327" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/daniel-chin-967b9222b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+
+    </div>
+    <div class="footer-copyright">
+      © 2024, Career Connect - this website was made with <i class="fas fa-heart"></i> by Nomad at wCoding.
+    </div>
+</footer>
+
+</div>
+
+<script src = "./project_main.js"></script>
+</body>
+</html>

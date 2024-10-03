@@ -6,11 +6,9 @@ body{
   font-weight: 100;
 }
 
-
 main {
-  height:1100px;
+  height:600px;
 }
-
 
 .navbar{
   background-color: #e2e2e2;
@@ -51,7 +49,7 @@ main {
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 40px 0;
   text-align:center;
 }
 
@@ -72,32 +70,8 @@ main {
 
 .main{
   display:flex;
-  justify-content:space-evenly
-}
-
-.bio{
-  width:40%;
-}
-
-.bio h2{
-  text-align: center;
-}
-
-.author-icon{
-  width:50%;
-  margin: auto;
-  display: block;
-  text-align: center;
-}
-
-.contact{
-  width: 45%;
-  height:80%;
-  max-width:700px;
-}
-
-.contact h2{
-  text-align: center;
+  justify-content:space-evenly;
+  padding:34px;
 }
 
 
@@ -111,27 +85,16 @@ fieldset label{
 }
 
 .fieldset-message{
-
-  margin-bottom:12px;
+  padding: 24px;
+  margin-top:24px;
   max-width: 700px;
 }
 
-.message-area{
-  text-align: center;
-  margin-bottom: 12px;
-}
-
-.message-area label{
-  padding-bottom:36px;
-}
-
-.message-text-area{
-  resize: none;
-}
 
 .submit-button{
   display: block;
   margin-top:12px;
+  font-family:36px;
   margin: auto;
 }
 

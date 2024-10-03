@@ -12,35 +12,28 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<title>Tokyo Travel Tips About</title>
+<title>Career Connect Final</title>
 <link rel="stylesheet" href="../style/login_style.css">
 
 </head>
 <body>
 <div class="container">
   <navbar class="navbar">
-    <img src="./images/logo.webp" alt="logo" class="logo">
+    <img src="../images/logo.jpg" alt="logo" class="logo">
     <ul class="list-inline tabs-underlined">
+
       <li>
-        <a href="/project_main.html" class="tab-underlined active"><strong>Main</strong></a>
+        <a href="#planning" class="tab-underlined"><strong>Notifications</strong></a>
       </li>
       <li>
-        <a href="/project_about.html" class="tab-underlined active"><strong>Author</strong></a>
-      </li>
-      <li class="dropdown">
-        <a href="/project_itineraries.html" class="tab-underlined"><strong>Itineraries</strong></a>
+        <a href="/html/login.html" class="tab-underlined"><strong>Login</strong></a>
       </li>
       <li>
-        <a href="#planning" class="tab-underlined"><strong>Planning</strong></a>
+        <a href="#" class="tab-underlined"><strong>Sign Up</strong></a>
       </li>
       <li>
-        <a href="#activities" class="tab-underlined"><strong>Activities</strong></a>
-      </li>
-      <li>
-        <a href="#" class="tab-underlined"><strong>Locations</strong></a>
-      </li>
-      <li>
-        <a href="#" class="tab-underlined"><i class="fa-solid fa-moon"></i></a>
+        <a href="#" class="tab-underlined" id="theme-toggle"  ><i class="fa-solid fa-user"></i></a>
+        <!-- <a href="#" class="tab-underlined"><i class="fa-regular fa-sun"></i></a> -->
       </li>
     </ul>
     </navbar>
@@ -48,71 +41,56 @@
 <main>
   <div class="banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.43)), url('./images/naraijuku.jpg');">
     <div class="banner-info">
-      <h1>Author</h1>
-      <p>Thanks for taking the time to learn more about the author</p>
+      <h1>Login</h1>
     </div>
   </div>
 
   <div class="main">
-<div class="bio">
-  <h2><em>Author</em></h2>
-  <img class="author-icon"src="/images/zen_circle.jpg" alt="">
-  <p>Nomad is an aspiring software-developer. He is currently learning coding at wCoding, an intensive bootcamp located in Seoul. He has had an interest in East Asia since he was young and had lived in Tokyo for a year, attempting to travel to somewhere new everyday while living there. </p>
-  <p>While in Tokyo, he travelled to dozens of museums, travelled to all the major outlying cities, and had made several multi-day trips from Tokyo throughout his life.</p>
-  <p>Along the way, he had made a list of preferences and made several recommendations to friends with postive feedbacks.</p>
-</div>
 
 <div class="contact">
-  <h2><em>Contact</em></h2>
-  <p>If you would like to reach out and ask anything about Tokyo, feel free! He will reply back in about 2-3 days after reviewing your message.</p>
+
   <form action="" method="post">
   <fieldset>
     <legend><b>User Information</b></legend>
-    <label for="login">Full Name: </label>
-    <input type="text" name="login"  placeholder="Ex: Yuko Takahashi" size="30" maxlength="30"/><br>
-    <label for="login">Email: </label>
-    <input type="text" name="login"  placeholder="Kenji327@gmail.com" size="30" maxlength="30"/><br>
-    Please choose purpose of contacting:<br>
+    <label for="login">UserName: </label>
+    <input type="text" name="login"  placeholder="Ex: UserName123" size="30" maxlength="30"/><br>
+    <label for="login">Password: </label>
+    <input type="text" name="login"  placeholder="*******" size="30" maxlength="30"/><br>
+    Please Choose Which One You Are:<br>
     <input type="radio" name="message" value="inquiry" id="inquiry">
-    <label for="inquiry">Inquire</label>
+    <label for="inquiry">Job Seeker</label>
 
     <input type="radio" name="message" value="story" id="story">
-    <label for="story">Share a story</label>
-
-    <input type="radio" name="message" value="advice" id="advice">
-    <label for="advice">Give an advice</label>
-
-    <input type="radio" name="message" value="troubleshoot" id="troubleshoot">
-    <label for="troubleshoot">Website troubleshoot</label>
-
-    <input type="radio" name="message" value="misc" id="misc">
-    <label for="misc">Other</label>
+    <label for="story">Employer</label>
     </fieldset>
-
-    <fieldset class="fieldset-message">
-      <legend><b>Message</b></legend>
-        <div class="message-area">
-          <label for="object">Write your message here: </label><br>
-          <textarea class="message-text-area" name="improve" id="object" rows="15" cols="70" placeholder="ex. What are some tips for museums..." ></textarea>
-        </div>
-  </fieldset>
-  <input class="submit-button" type="submit" value="Submit">
+  <input class="submit-button" type="submit" value="Submit" onclick="redirectPage()">
 </form>
   </div>
 </div>
 
 </main>
-    <footer class="footer">
-      <div class="footer-links">
-        <a href="https://github.com/DanielChin327"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/daniel-chin-967b9222b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<footer class="footer">
+  <div class="footer-links">
+    <a href="https://github.com/DanielChin327" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/daniel-chin-967b9222b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank"><i class="fa-brands fa-facebook"></i></a>
 
-      </div>
-      <div class="footer-copyright">
-        © 2024, Tokyo Trip Tips - this website was made with <i class="fas fa-heart"></i> by Nomad at wCoding.
-      </div>
-  </footer>
+  </div>
+  <div class="footer-copyright">
+    © 2024, Career Connect - this website was made with <i class="fas fa-heart"></i> by Nomad at wCoding.
+  </div>
+</footer>
+
 </div>
 </body>
+
+<script>
+  function redirectPage() {
+    // Prevent the default form submission
+    event.preventDefault();
+
+    // Redirect to another page
+    window.location.href = "./job_seeker_main.html";  // Replace "anotherpage.html" with the desired page
+  }
+</script>
 </html>
