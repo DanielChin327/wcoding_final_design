@@ -147,41 +147,6 @@ body{
   padding-top: 80px;
 }
 
-.ad-cards{
-  display:flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.ad-card-category {
-  background-size: cover;
-  background-position: center;
-  color:rgb(45, 45, 45);
-  height: 180px;
-  width: 350px;
-  margin: 25px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 24px;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-.ad-card-category{
-  text-align:center;
-}
-
-.ad-card-category p{
-  padding: 1px;
-}
-.ad-strength-text{
-  margin: 2px;
-  font-size: 36px;
-  color:#c14214;
-}
-
-
 .planning-title h2, h3{
   text-align:center;
 }
