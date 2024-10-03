@@ -171,6 +171,11 @@ body{
   background-blend-mode: darken;
 }
 
+.activity-card-text{
+  display:flex;
+  justify-content: space-between;
+}
+
 .activity-card h2,h3{
   margin:0px;
   margin-left:26px;
@@ -188,18 +193,70 @@ body{
   padding-bottom:26px;
 }
 
+
 .activity-recommended-card{
   padding: 34px;
   width:70%;
   height:700px;
 }
 
-.activity-cards-top-row-second-column{
-  display:flex;
-  flex-direction:column;
-  width:20%;
-  height:404px;
+.accept-button{
+  text-decoration: none;
+  color: white;
+  background-color: #17c1149b;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 15px;
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
+
+.accept-button:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #3ef368;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 15px;
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.reject-button{
+  text-decoration: none;
+  color: white;
+  background-color: #c3181849;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.reject-button:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #e24b4bad;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+
+
+
+
+
+
+
 
 
 .planning-title h2, h3{
